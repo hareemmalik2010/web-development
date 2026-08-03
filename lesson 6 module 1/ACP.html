@@ -8,10 +8,12 @@
         <form>
          <fieldset>
             <legend>Personal details</legend>
-            <label>Name</label>
+            <label>Name</label><br>
             <input type="text" id="Name" placeholder="Enter your full name"><br>
-            <label>Class</label>
+            <label>Class</label><br>
             <input type="text" id="class" placeholder="Enter your class name "><br>
+            <label>Number</label><br>
+            <input type="number" id="number" placeholder="write your number"><br>
             </fieldset>
             <fieldset>
                 
@@ -20,11 +22,27 @@
             <input type="radio" name="books">Compulsory<br>
             <input type="radio" name="books">Sciences<br>
             <input type="radio" name="books">Arts<br><br>
-            <label>Sciences</label><br>
-            <input 
+          </fieldset>
+         <fieldset>
+            <legend>books available</legend>
+             <label><b>Sciences</b></label><br>
+            <input type="checkbox" id="books">Math<br>
+            <input type="checkbox" id="books">Biology<br>
+            <input type="checkbox" id="books">Chemistry<br>
+            <input type="checkbox" id="books">Physics<br>
+            <label><b>compulsory</b></label><br>
+            <input type="checkbox" id="books">English<br>
+            <input type="checkbox" id="books">Urdu<br>
+            <input type="checkbox" id="books">Islamiat<br>
+            <input type="checkbox" id="books">Tarjuma tul Quran<br>
+            <label><b>Arts</b></label><br>
+            <input type="checkbox" id="books">Maths<br>
+            <input type="checkbox" id="books">Science<br>
 
-            </fieldset>
-            
+         </fieldset> 
+         <p>books from 1 to 12 are available.</p>
+         <input type="subbmit" value="Apply">
+
         </form>
     </body>
 </html>
