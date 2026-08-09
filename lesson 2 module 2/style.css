@@ -1,44 +1,43 @@
-      
-      body {
-      background-color: darkblue;
-      background-image: linear-gradient(to bottom, darkblue,rgb(147, 22, 43));
-      background-repeat: no-repeat;
-      background-position: top center;
-      text-align: center;
-    }
- 
-    .page-header {
-      background-image: linear-gradient(to bottom, purple, coral);
-      border-radius: 16px;
-      text-align: center;
-      color: white;
-    }
- 
-    .fact-card {
-      background-color: midnightblue;
-      border-radius: 12px;
-      color: white;
-    }
- 
-    .fact-card h2 {
-      color: coral;
-    }
- 
-    .star {
-      margin: 20px auto;
-      width: 60px;
-      height: 60px;
-      background-color: yellow;
-      border-radius: 50%;
-      animation: twinkle 2s infinite alternate;
-    }
- 
-    @keyframes twinkle {
-      from { background-color: yellow; }
-      to   { background-color:orange; }
-    }
- 
-    .footer-text {
-      text-align: center;
-      color: coral;
-    }
+body{
+  background-image: linear-gradient(to bottom, darkblue, rgb(147, 22, 43));
+  background-color: rgb(38, 38, 100);
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: top;
+}
+  .page-header{
+    background-image: linear-gradient(to bottom,rgb(118, 8, 118),rgb(240, 85, 111));
+    border-radius: 15px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+  
+}
+.fact-card{
+  background-image: linear-gradient(to bottom ,rgb(109, 23, 109),rgb(235, 81, 107));
+  border-radius: 15px;
+  margin-bottom: 2px;
+}
+.star {
+  margin: 20px auto;
+  width: 60px;
+  height: 60px;
+  background-color: yellow;
+  border-radius: 50%;
+  animation: twinkle 2s infinite alternate;
+  
+}
+
+@keyframes twinkle {
+  from {
+    background-color: yellow;
+  }
+  to {
+    background-color: orange;
+  }
+}
+
+.footer-text {
+  text-align: center;
+  color: coral;
+  border-radius:15px;
+}
