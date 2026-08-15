@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <head>
+        <title>myy foof menu</title>
+        <style>
+            body{
+                background-color: antiquewhite;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: center;
+                padding:30px;
+
+            }
+            h1{
+                color: chocolate;
+
+            }
+            h1+p{
+                color: brown;
+                background-color:cadetblue;
+                display:inline-block;
+                border-radius: 8px;
+                padding: 10px 30px;
+              }
+            ul>li{
+                list-style: none;
+                font-size: 18px;
+                font-weight: bold;
+                color:blueviolet;
+                background-color: cadetblue;
+                
+                border-radius: 8px;
+                margin:6px auto;
+                padding:10px 20px;
+                width:260px;
+
+            }
+            ul{
+                padding: 0px;
+                margin-top:20px;
+            }
+            ul>li:nth-child(3){
+                background-color: cadetblue;
+                color: chocolate;
+                display:inline-block;
+                border-radius: 8px;
+            }
+            .text{
+                color: chocolate;
+
+            }
+            .text::first-letter{
+                font-size: 220%;
+                color:cadetblue;
+                font-weight: bold;
+            }
+            .link{
+                margin-top:20px;
+                
+            }
+            a{
+                color: chocolate;
+                text-decoration: none;
+                font-size: 20px;
+                margin: 0 12px;
+                padding:8px 18px;
+                border-radius:8px ;
+                border: 2px solid rgb(158, 139, 104);
+                
+            }
+            a:hover{
+                background-color: white;
+                color: chocolate;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My Food Menu</h1>
+        <p>Pick your favourite dish and begin.</p>
+        <ul>
+            <li>Pizza</li>
+            <li>Burger</li>
+            <li>Cheese pizza<b> Chef's Speacial</b></li>
+            <li>Biryani</li>
+            <li>Ice cream</li>
+        </ul>
+        <p class="text">Every dish on this menu is made by love and lots of flavour. Try them all and find your favourite.</p>
+        <div class="links">
+            <a href="#">Order Now</a>
+            <a href="#">See More</a>
+        </div>
+
+    </body>
+</html>
