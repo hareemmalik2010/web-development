@@ -4,6 +4,7 @@
         <title>Zoo rescue tracker</title>
         <style>
             body{
+                min-height: 1800px;
                 background-color: bisque;
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -28,6 +29,7 @@
             }
             .animal{
                 color:chocolate;
+
                  padding: 2px 2px;
                 background-color: aqua;
                 border: 3px solid firebrick;
@@ -50,10 +52,34 @@
             .text{
                 color: chocolate;
             }
+            .animal-moved{
+                 color:chocolate;
+                 padding: 2px 2px;
+                background-color: aqua;
+                border: 3px solid firebrick;
+                width:250px;
+position: relative;
+             
+                
+            }
+            .sticky{
+                 color:chocolate;
+                 padding: 2px 2px;
+                background-color: aqua;
+                border: 3px solid firebrick;
+                width:250px;
+                position:sticky;
+                  top: 25px;
+      padding: 10px;
+      margin-top: 25px;
+
+            }
           
         </style>
     </head>
     <body>
+        
+        
         <h1 class="heading">Zoo Rescue Tracker</h1>
         <div class="alert">Zoo Rescue Alert - Emergency team active</div>
         <p class="text">"Zoo rescue" typically refers to the closure and rehabilitation of neglected animal facilities into wildlife sanctuaries</p>
@@ -63,11 +89,20 @@
             <p><b>Local Rehabilitation:</b> Facilities like the former Islamabad Zoo have been transformed into local wildlife rehabilitation centers to nurse injured or confiscated native animals back to health.</p>
         </div>
         
-            <h1>Static Postion</h1>
+            <h1>Static Position</h1>
              <div class="animal">Lion - Resting zone</div>
              <br>
   <div class="animal">Elephant - Water zone</div><br>
   <div class="animal">Penguin - Ice zone</div>
+  <h1>Relative position</h1>
+  <div class="animal">lion</div><br>
+  <div class="animal-moved">Tiger</div>
+<br>
+
+<h2  class="sticky">Rescue officer name</h2>
+<div class="animal">Nouman</div><br>
+<div class="animal">Ahan</div>
+  
         
 
     </body>
