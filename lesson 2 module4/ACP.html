@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multiplication using Function</title>
+        <style>
+            body{
+                background-color: aquamarine;
+            }
+            h1{
+                color: rgb(77, 160, 163);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Multiplication using Java script</h1>
+        <p>A function can access variables defined inside the function:</p>
+        <button onclick="myfunction()" style="background-color: cadetblue;">Click on it!</button>
+        <p id="demo"></p>
+        <script>
+          
+           function myfunction(){
+            var a=4;
+            var b=9;
+            document.getElementById("demo").innerHTML=b*a
+
+           }
+        </script>
+    </body>
+</html>

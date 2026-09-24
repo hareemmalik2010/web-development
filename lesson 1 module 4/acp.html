@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Calculation</title>
+        <style>
+            body{
+                background-color:burlywood;
+            }
+            h1{
+                color:cadetblue;
+            }
+            h2{
+                color: aqua;
+                }
+                p{
+                color: aquamarine;
+                }
+        </style>
+    </head>
+    <body>
+        <h1>Simple calculation:</h1>
+        <h2>Division</h2>
+        <p id="div"></p>
+        <h2>Multiply</h2>
+        <p id="multiply"></p>
+        <h2>Addition</h2>
+        <p id="add"></p>
+        <h2>Subtraction</h2>
+        <p id="sub"></p>
+     <script>
+        //numbers
+             var num1=50;;
+                var num2=5;
+                //division
+                var div=num1/num2;
+                document.getElementById("div").innerHTML=div;
+                //multiply
+                var num=num1*num2;
+                document.getElementById("multiply").innerHTML=num;
+                //addition
+                var sum=num1+num2;
+
+                document.getElementById("add").innerHTML=sum;
+                //subtraction
+                var sub=num1-num2;
+                document.getElementById("sub").innerHTML=sub;
+            
+        </script>
+
+
+
+    </body>
+</html>
