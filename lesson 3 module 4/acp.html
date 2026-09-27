@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods, loop, switch</title>
+</head>
+<body>
+<h1>Using methods, loop, &switch in JS:</h1>
+    <h2>Methods</h2>
+    <p id="myid"></p>
+    <p id="myid1"></p>
+    <p id="myid2"></p>
+    <p id="myid3"></p>
+    <h2>Switch</h2>
+    <script>
+        //methods
+        var word="Javascript";
+        var a=word.toLocaleLowerCase()
+        var b=word.toLocaleUpperCase()
+         document.getElementById("myid").innerHTML = b;
+          document.getElementById("myid1").innerHTML = a;
+         var c=word.startsWith("J")
+         document.getElementById("myid2").innerHTML=c;
+       var d=Math.random()*10
+       var e=Math.floor(d)
+       document.getElementById("myid3").innerHTML=e;
+       //switch
+       var date =new Date();
+       document.write("Today's Date is" + date.getDate());
+       //loop
+      
+    </script>
+    
+</body>
+</html>

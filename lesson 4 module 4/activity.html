@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to object in JS</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            text-align: center;
+        }
+        h1{
+            color: rgb(34, 96, 98);
+            text-decoration: underline;
+            
+        }
+        h2{
+            color: cadetblue;
+            text-decoration: underline;
+        }
+        p{
+            color:rgb(64, 146, 149);
+            text-decoration:dotted;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Introduction to object in JS</h1>
+    <h2>Name</h2>
+    <p id="demo"></p>
+    <h2>Age</h2>
+    <p id="demo1"></p>
+    <h2>City</h2>
+    <p id="demo2"></p>
+    <script>
+        var contact={
+            name: "Hareem Fatima",
+            age: "16 years",
+            city: "Islamabad",
+        }
+        document.getElementById("demo").innerHTML=contact.name
+        document.getElementById("demo1").innerHTML=contact.age
+        document.getElementById("demo2").innerHTML=contact.city
+    </script>
+    
+</body>
+</html>
