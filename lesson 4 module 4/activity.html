@@ -1,48 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction to object in JS</title>
+    <title>My favourite person profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body{
             background-color: antiquewhite;
-            text-align: center;
         }
         h1{
-            color: rgb(34, 96, 98);
-            text-decoration: underline;
-            
+            color: rgb(145, 48, 48);
+            margin:15px 15px;
         }
-        h2{
-            color: cadetblue;
-            text-decoration: underline;
+        .card-label{
+            font-size: 11px;
+            color:#999;
+            text-transform: uppercase;
+        }
+        #she{
+            color: bisque;
+
+        }
+        .card-title{
+            color: brown;
         }
         p{
-            color:rgb(64, 146, 149);
-            text-decoration:dotted;
+            color: #999;
+            margin:20px 20px;
         }
-
     </style>
 </head>
+
 <body>
-    <h1>Introduction to object in JS</h1>
-    <h2>Name</h2>
-    <p id="demo"></p>
-    <h2>Age</h2>
-    <p id="demo1"></p>
-    <h2>City</h2>
-    <p id="demo2"></p>
-    <script>
-        var contact={
-            name: "Hareem Fatima",
-            age: "16 years",
-            city: "Islamabad",
-        }
-        document.getElementById("demo").innerHTML=contact.name
-        document.getElementById("demo1").innerHTML=contact.age
-        document.getElementById("demo2").innerHTML=contact.city
-    </script>
-    
+    <h1>My favourite person profile</h1>
+    <p>Introduction to my favourite person</p>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Profile details</h3>
+                <ul class="list-group">
+                    <li class="list-item">
+                        <span class="card-label">Name</span><br>
+                        <strong id="she">Yasmeen Sohail</strong>
+                    </li>
+                    <li class="list-item">
+                        <span class="card-label">Age</span><br>
+                        <strong id="she">39 years</strong>
+                    </li>
+                    <li class="list-item">
+                        <span class="card-label">Relation with her</span><br>
+                        <strong id="she">Mother</strong>
+                    </li>
+                    <li class="list-item">
+                        <span class="card-label">Quality </span><br>
+                        <strong id="she">she is so hardworking which quality i like the most.</strong><br>
+                        <strong id="she">she is so humble person.</strong>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <footer>Made by Hareem Fatima.</footer>
+    </div>
+
 </body>
+
 </html>
