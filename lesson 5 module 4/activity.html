@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="demo"></h1>
+    <h1 id="demo1"></h1>
+    <h1 id="demo2"></h1>
+    <script>
+        var n={
+            name:"Hareem",
+            age:"16", }
+    
+        document.getElementById("demo").innerHTML=n.name  +  "is" + n.age + "years old";
+        var n=[1,2,3,4,5 ]
+        var name=["Hareem"]
+        var fruits=["Apple","banana","dragenfruit","grapes"]
+        fruits.push("mango");
+        fruits.push("grapes");
+        fruits.pop();
+        fruits.sort();
+        fruits.reverse();
+        f= fruits.join("/");
+        document.getElementById("demo2").innerHTML=f
+
+        document.getElementById("demo1").innerHTML=fruits[2]+ "is my favourite fruit."
+          </script>
+</body>
+</html>
