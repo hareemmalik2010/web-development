@@ -9,72 +9,140 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        
+
 
     <title>Hello, world!</title>
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light " style="background-color: antiquewhite;">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#" ><image src="image.png" height="50px" width="60px" ></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: antiquewhite;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <image src="image.png" height="50px" width="60px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#wildlife">Wildlife</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img height="700vh" src="photo.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img height="700vh" src="wildlife.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img height="700vh"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTemTPtgEfwSX1G_UUJGlFNF9CwE1lz1m7-FxLWkZ1IObNwKfqWbZuTKGM&s=10"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Wildlife</a>
-                </li>
-                   </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="p-5 m-2 text-center bg-dark" id="about">
+        <h1 class="text-white display-1">About us</h1>
+    </div>
+    <div class="container my-5">
+        <div class="row text-center">
+            <div class=col-md-6>
+                <img src="photo.png" height="100%" width="100%">
+            </div>
+            <div class=col-md-6>
+                <h2>about us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam dignissimos eveniet ipsa earum
+                    eligendi quaerat quas distinctio dicta. Ea voluptas hic architecto praesentium consequuntur ab
+                    soluta. Aut repellat fugit doloribus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde nobis eos totam voluptatibus! Nesciunt
+                    distinctio facilis reiciendis voluptas numquam doloremque eos. Itaque impedit iste sunt iure
+                    delectus maiores repellendus mollitia!</p>
+            </div>
+
         </div>
     </div>
-</nav>
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
+    <div class="p-5 m-2 text-center bg-dark" id="wildlife">
+        <h1 class="text-white display-1">Wild life</h1>
     </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img height="700vh" src="photo.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img  height="700vh"src="wildlife.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img  height="700vh" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTemTPtgEfwSX1G_UUJGlFNF9CwE1lz1m7-FxLWkZ1IObNwKfqWbZuTKGM&s=10" class="d-block w-100" alt="...">
-        </div>
+    <div class="p-5 m-2 fs-3">
+        <p>Wildlife refers to undomesticated animals and uncultivated plant species which can exist in their natural
+            habitat, but
+            has come to include all organisms that grow or live wild in an area without being introduced by humans.
+            Wildlife was
+            also synonymous to game, birds and mammals hunted for sport. Wildlife can be found in all ecosystems, both
+            wild and most
+            developed urban areas, forming distinct groups. While the term in popular culture usually refers to animals
+            that are
+            untouched by human existence, most scientists agree that much wildlife is affected by humans. Some wildlife
+            threaten
+            human safety, health, property and quality of life, but many wild animals have value to humans, whether
+            economic,
+            educational, or sentimental.</p>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShz0OURd0_KDF8Ja9iyBi-cr8EWJVUsX8L9Xu6YEJA1Q&s=10"
+        height="100%" width="100%">
+    <div class="p-5 m-2 fs-3">
+
+        <p> Humans have historically tended to separate civilization from wildlife in a number of ways, including the
+            legal, social
+            and moral senses. Some animals, however, have adapted to suburban environments. This includes urban wildlife
+            such as
+            feral cats, dogs, mice, and rats. Some religions declare certain animals to be sacred, and in modern times,
+            concern for
+            the natural environment has provoked activists to protest against the exploitation of wildlife for human
+            benefit or
+            entertainment.</p>
+        <p>The annual international trade may be worth billions of dollars and affects hundreds of millions of individual
+        specimens. Global wildlife populations have decreased significantly, by 68% since 1970, as a result of human activity,
+        with identified causes including overconsumption, population growth, and intensive farming. This is cited as evidence
+        that humans have unleashed a sixth mass extinction event.</p>
+    </div>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106370.25384251427!2d72.97478019726559!3d33.577520500000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfecf3bd340be3%3A0xa7c6bb6c8ff491d6!2sLohi%20Bher%20Wildlife%20Park!5e0!3m2!1sen!2s!4v1793527457312!5m2!1sen!2s"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin" ></iframe>
+        <footer class="p-5 m-2 text-center bg-dark text-white ">
+           <h3>Made by me!</h3>
+           <p>Hareem Fatima</p>
+           <p>Contact no:------</p>
+        </footer>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
